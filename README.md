@@ -1,7 +1,8 @@
 <h2 align="center">System.out.println("Oi, eu sou o Arthur");</h2>
 <h3 align="left">public class BemVindoAoMeuGitHub{</h3>
-<h4 align="left">private String nome;<br>private String graduacao;<br>private ArrayList <String> interesses;</h4>
-<h5 align="left">public BemVindoAoMeuGitHub(String nome, String graduacao, ArrayList<String> interesses) {</h5>
+<h4 align="left">private String nome;<br>private String graduacao;<br>private 'ArrayList <String>' interesses;</h4>
+'''java
+  public BemVindoAoMeuGitHub(String nome, String graduacao, ArrayList <String> interesses){'''
   
 <p align="left">nome = "Arthur Silva";<br>        graduacao = "Engenharia de Computação";<br>        interesses.add("Jogos");<br>        interesses.add("IA");<br>        interesses.add("Hardware");</p>
 

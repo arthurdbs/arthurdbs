@@ -1,27 +1,36 @@
 <h2 align="center">System.out.println("Oi, eu sou o Arthur");</h2>
-<h3 align="left">public class BemVindoAoMeuGitHub{</h3>
-<h4 align="left">private String nome;<br>private String graduacao;<br>private 'ArrayList <String>' interesses;</h4>
-'''java
-  public BemVindoAoMeuGitHub(String nome, String graduacao, ArrayList <String> interesses){'''
-  
-<p align="left">nome = "Arthur Silva";<br>        graduacao = "Engenharia de Computação";<br>        interesses.add("Jogos");<br>        interesses.add("IA");<br>        interesses.add("Hardware");</p>
 
-<p align="left">}</p>
-<h4 align="left">public String getNome(){</h4>
-<p align="left">return nome;</p>
-<h4 align="left">}</h4>
+```java
+import java.util.ArrayList;
 
-<h4 align="left">public String getGraduacao(){</h4>
+public class BemVindoAoMeuGitHub {
+    private String nome;
+    private String graduacao;
+    private ArrayList<String> interesses;
 
-<p align="left">return graduacao;</p>
+    public BemVindoAoMeuGitHub() {
+        this.nome = "Arthur Silva";
+        this.graduacao = "Engenharia de Computação";
+        this.interesses = new ArrayList<>();
+        this.interesses.add("Jogos");
+        this.interesses.add("IA");
+        this.interesses.add("Hardware");
+        this.interesses.add("Linux");
+    }
 
-<h4 align="left">}</h4>
-<h4 align="left">public ArrayList<String> getInteresses(){</h4>
+    public String getNome() {
+        return this.nome;
+    }
 
-<p align="left">return interesses;</p>
-<h4 align="left">}</h4>
-<h2 align="left">}</h2>
+    public String getGraduacao() {
+        return this.graduacao;
+    }
 
+    public ArrayList<String> getInteresses() {
+        return this.interesses;
+    }
+}
+```
 <h3 align="left">🛠 Linguagens e tecnologias</h3>
 
 <div align="left">
@@ -41,8 +50,7 @@
   <a href="https://www.linkedin.com/in/arthur-de-brito-silva-183a21236/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a>
-  <a href="arthurslv.brito@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
+  <a href="mailto:arthurslv.brito@gmail.com?subject=Olá%20Arthur,%20Venho%20do%20Github"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  /></a>&nbsp;&nbsp;&nbsp;&nbsp;
   </a>
 </div>
 <h3 align="left"></h3>

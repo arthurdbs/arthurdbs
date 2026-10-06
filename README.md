@@ -14,7 +14,7 @@ public class BemVindoAoMeuGitHub {
         this.interesses = new ArrayList<>();
         this.interesses.add("Jogos");
         this.interesses.add("IA");
-        this.interesses.add("Hardware");
+        this.interesses.add("Visão Computacional");
         this.interesses.add("Linux");
     }
 
@@ -39,8 +39,6 @@ public class BemVindoAoMeuGitHub {
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" height="40" alt="raspberrypi logo" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo" />
 </div>
